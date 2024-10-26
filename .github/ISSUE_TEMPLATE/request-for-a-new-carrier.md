@@ -1,6 +1,6 @@
 ---
 name: Request for a new carrier
-about: If you want to request a new carrier, please fill out the following form.
+about: If you want to request a new carrier, please complete the following form.
 title: "[Request for new carrier]: "
 labels: ''
 assignees: art29
@@ -10,7 +10,7 @@ body:
     attributes:
       label: Carrier Name
       description: The name of the carrier you want to add
-      placeholder: My favorite carrier
+      placeholder: My favourite carrier
     validations:
       required: true
   - type: textarea
