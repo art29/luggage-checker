@@ -90,18 +90,22 @@
 	<div class="flex-grow">
 		{#if allFilled()}
 			<div class="flex flex-col md:flex-row gap-3 mt-2">
-				<div class="flex flex-col w-full">
-					<label class="block text-sm font-medium leading-6 text-gray-800" for="country-select">{m.filterCountries()}</label>
-					<MultiSelect bind:selected={selectedCountries} outerDivClass="rounded-lg border-neutral-400 w-full" id="country-select" options={countries()} placeholder={m.chooseCountries()} let:option>
+				{#if countries().length > 0}
+					<div class="flex flex-col w-full">
+						<label class="block text-sm font-medium leading-6 text-gray-800" for="country-select">{m.filterCountries()}</label>
+						<MultiSelect bind:selected={selectedCountries} outerDivClass="rounded-lg border-neutral-400 w-full" id="country-select" options={countries()} placeholder={m.chooseCountries()} let:option>
 					<span>
 						{getCountryFromCode(option)}
 						</span>
-					</MultiSelect>
-				</div>
+						</MultiSelect>
+					</div>
+					{/if}
+				{#if countries().length > 0}
 				<div class="flex flex-col w-full">
 					<label class="block text-sm font-medium leading-6 text-gray-800" for="country-select">{m.filterCarriers()}</label>
 					<MultiSelect bind:selected={selectedCarriers} outerDivClass="rounded-lg border-neutral-400 w-full" id="country-select" options={carriers()} placeholder={m.chooseCarriers()} />
 				</div>
+				{/if}
 			</div>
 			<div class="mt-10 flex flex-col items-center gap-4">
 				{#if filteredCarriersRequirements()}

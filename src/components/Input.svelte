@@ -10,7 +10,7 @@
 		<label class="block text-sm font-medium leading-6 text-gray-800" for={id}>{label}</label>
 	{/if}
 	<div class="flex w-full">
-		<input disabled={disabled} id={id} type={type} bind:value={value} min={min} class={`${rightContent ? 'rounded-l-lg' : 'rounded-lg'} border-neutral-400 h-10 w-full lg:w-fit`}>
+		<input disabled={disabled} id={id} type={type} bind:value={value} min={min} class={`${rightContent ? 'rounded-l-lg' : 'rounded-lg'} border-neutral-400 h-10 w-full`}>
 		{#if rightContent}
 			<div class="flex items-center justify-center rounded-r-lg border border-l-0 border-neutral-400 h-10 w-fit p-2">
 				{@render rightContent()}
