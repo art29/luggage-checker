@@ -58,5 +58,6 @@
     "svelte-fa": "^4.0.3",
     "svelte-multiselect": "^11.0.0-rc.1",
     "wrangler": "^3.83.0"
-  }
+  },
+  "packageManager": "yarn@4.5.1"
 }
