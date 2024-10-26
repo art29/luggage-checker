@@ -1,0 +1,22 @@
+{
+  "$schema": "https://inlang.com/schema/inlang-message-format",
+  "luggageChecker": "Vérificateur de bagages",
+  "luggageCheckerDescription": "Entrez les dimensions de vos bagages pour voir s'ils rentrent dans le compartiment supérieur ou sous le siège devant vous.",
+  "personalItem": "Objet personnel",
+  "carryOn": "Bagage à main",
+  "checkedLuggage": "Bagage enregistré",
+  "depth": "Profondeur",
+  "width": "Largeur",
+  "height": "Hauteur",
+  "yes": "Oui",
+  "no": "Non",
+  "allowedSize": "Taille autorisée :",
+  "canada": "Canada",
+  "france": "France",
+  "unitedKingdom": "Royaume-Uni",
+  "netherlands": "Pays-Bas",
+  "filterCountries": "Filtrer par pays",
+  "chooseCountries": "Choisissez des pays...",
+  "filterCarriers": "Filtrer par transporteurs",
+  "chooseCarriers": "Choisissez des transporteurs..."
+}

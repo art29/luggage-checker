@@ -1,4 +1,22 @@
 {
   "$schema": "https://inlang.com/schema/inlang-message-format",
-  "hello_world": "Hello, {name} from en!"
+  "luggageChecker": "Luggage Checker",
+  "luggageCheckerDescription": "Enter the dimensions of your luggage to see if it fits in the overhead bin or under the seat in front of you.",
+  "personalItem": "Personal Item",
+  "carryOn": "Carry-On",
+  "checkedLuggage": "Checked Luggage",
+  "depth": "Depth",
+  "width": "Width",
+  "height": "Height",
+  "yes": "Yes",
+  "no": "No",
+  "allowedSize": "Allowed Size:",
+  "canada": "Canada",
+  "france": "France",
+  "unitedKingdom": "United Kingdom",
+  "netherlands": "Netherlands",
+  "filterCountries": "Filter by Country",
+  "chooseCountries": "Choose Countries...",
+  "filterCarriers": "Filter by Carrier",
+  "chooseCarriers": "Choose Carriers..."
 }

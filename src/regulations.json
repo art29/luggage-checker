@@ -1,0 +1,238 @@
+[
+  {
+    "country": "CA",
+    "carrierName": "Air Canada",
+    "carrierCodes": ["AC", "ACA"],
+    "luggageTypes": [
+      {
+        "type": "PERSONAL_ITEM",
+        "maxWeight": null,
+        "maxWidth": 43,
+        "maxHeight": 33,
+        "maxDepth": 16
+      },
+      {
+        "type": "CARRY_ON",
+        "maxWeight": null,
+        "maxWidth": 55,
+        "maxHeight": 40,
+        "maxDepth": 23
+      },
+      {
+        "type": "CHECKED",
+        "maxWeight": 23,
+        "maxTotalSize": 158
+      }
+    ]
+  },
+  {
+    "country": "CA",
+    "carrierName": "Porter Airlines",
+    "carrierCodes": ["PD", "POE"],
+    "luggageTypes": [
+      {
+        "type": "PERSONAL_ITEM",
+        "maxWeight": null,
+        "maxWidth": 43,
+        "maxHeight": 33,
+        "maxDepth": 16
+      },
+      {
+        "type": "CARRY_ON",
+        "maxWeight": null,
+        "maxWidth": 55,
+        "maxHeight": 40,
+        "maxDepth": 23
+      },
+      {
+        "type": "CHECKED",
+        "maxWeight": 23,
+        "maxTotalSize": 158
+      }
+    ]
+  },
+  {
+    "country": "CA",
+    "carrierName": "WestJet Airlines",
+    "carrierCodes": ["WS", "WJA"],
+    "luggageTypes": [
+      {
+        "type": "PERSONAL_ITEM",
+        "maxWeight": null,
+        "maxWidth": 41,
+        "maxHeight": 33,
+        "maxDepth": 15
+      },
+      {
+        "type": "CARRY_ON",
+        "maxWeight": null,
+        "maxWidth": 53,
+        "maxHeight": 38,
+        "maxDepth": 23
+      },
+      {
+        "type": "CHECKED",
+        "maxWeight": 23,
+        "maxTotalSize": 157
+      }
+    ]
+  },
+  {
+    "country": "CA",
+    "carrierName": "Flair Airlines",
+    "carrierCodes": ["F8", "FLE"],
+    "luggageTypes": [
+      {
+        "type": "PERSONAL_ITEM",
+        "maxWeight": null,
+        "maxWidth": 15,
+        "maxHeight": 33,
+        "maxDepth": 43
+      },
+      {
+        "type": "CARRY_ON",
+        "maxWeight": null,
+        "maxWidth": 55,
+        "maxHeight": 40,
+        "maxDepth": 23
+      },
+      {
+        "type": "CHECKED",
+        "maxWeight": 23,
+        "maxTotalSize": 158
+      }
+    ]
+  },
+  {
+    "country": "CA",
+    "carrierName": "Air Transat",
+    "carrierCodes": ["TS", "TSC"],
+    "luggageTypes": [
+      {
+        "type": "PERSONAL_ITEM",
+        "maxWeight": null,
+        "maxWidth": 12.7,
+        "maxHeight": 30.5,
+        "maxDepth": 43.2
+      },
+      {
+        "type": "CARRY_ON",
+        "maxWeight": null,
+        "maxWidth": 51,
+        "maxHeight": 40,
+        "maxDepth": 23
+      },
+      {
+        "type": "CHECKED",
+        "maxWeight": 23,
+        "maxTotalSize": 158
+      }
+    ]
+  },
+  {
+    "country": "FR",
+    "carrierName": "Air France",
+    "carrierCodes": ["AF", "AFR"],
+    "luggageTypes": [
+      {
+        "type": "PERSONAL_ITEM",
+        "maxWeight": null,
+        "maxWidth": 40,
+        "maxHeight": 30,
+        "maxDepth": 15
+      },
+      {
+        "type": "CARRY_ON",
+        "maxWeight": null,
+        "maxWidth": 55,
+        "maxHeight": 35,
+        "maxDepth": 25
+      },
+      {
+        "type": "CHECKED",
+        "maxWeight": 23,
+        "maxTotalSize": 158
+      }
+    ]
+  },
+  {
+    "country": "NL",
+    "carrierName": "KLM Royal Dutch Airlines",
+    "carrierCodes": ["KL", "KLM"],
+    "luggageTypes": [
+      {
+        "type": "PERSONAL_ITEM",
+        "maxWeight": null,
+        "maxWidth": 40,
+        "maxHeight": 30,
+        "maxDepth": 15
+      },
+      {
+        "type": "CARRY_ON",
+        "maxWeight": null,
+        "maxWidth": 55,
+        "maxHeight": 35,
+        "maxDepth": 25
+      },
+      {
+        "type": "CHECKED",
+        "maxWeight": 23,
+        "maxTotalSize": 158
+      }
+    ]
+  },
+  {
+    "country": "UK",
+    "carrierName": "easyJet",
+    "carrierCodes": ["U2", "EC", "EZY", "EJU"],
+    "luggageTypes": [
+      {
+        "type": "PERSONAL_ITEM",
+        "maxWeight": null,
+        "maxWidth": 45,
+        "maxHeight": 36,
+        "maxDepth": 20
+      },
+      {
+        "type": "CARRY_ON",
+        "maxWeight": null,
+        "maxWidth": 56,
+        "maxHeight": 45,
+        "maxDepth": 25
+      },
+      {
+        "type": "CHECKED",
+        "maxWeight": 23,
+        "maxTotalSize": 275
+      }
+    ]
+  },
+  {
+    "country": "UK",
+    "carrierName": "Ryanair",
+    "carrierCodes": ["FR", "RYR"],
+    "luggageTypes": [
+      {
+        "type": "PERSONAL_ITEM",
+        "maxWeight": null,
+        "maxWidth": 40,
+        "maxHeight": 20,
+        "maxDepth": 25
+      },
+      {
+        "type": "CARRY_ON",
+        "maxWeight": null,
+        "maxWidth": 55,
+        "maxHeight": 40,
+        "maxDepth": 20
+      },
+      {
+        "type": "CHECKED",
+        "maxWeight": 20,
+        "maxWidth": 80,
+        "maxHeight": 120,
+        "maxDepth": 120
+      }
+    ]
+  }
+]
