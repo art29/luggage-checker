@@ -13,10 +13,10 @@ const config = {
 				include: ['/*'],
 				exclude: ['<all>']
 			},
+			platformProxy: {
+				configPath: 'wrangler.toml'
+			}
 		}),
-		platformProxy: {
-			configPath: 'wrangler.toml'
-		}
 	}
 };
 
