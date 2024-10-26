@@ -1,38 +1,25 @@
-# create-svelte
+# Luggage Checker
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+A small SvelteKit app to check if your Luggage Fits on various airlines
 
-## Creating a project
+## Technologies
+- SvelteKit 5
+- TypeScript (Typing)
+- TailwindCSS (Styling)
+- Font Awesome (Icons)
+- Paraglide (I18N)
+- Vite
+- Prettier & ESLint
 
-If you're seeing this, you've probably already done this step. Congrats!
+# Contributing
+Feel free to contribute to this project by opening a pull request.
 
-```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
-```
+# Adding new Carriers
+To add a new carrier either create a PR to update the `src/regulations.json` file if you feel comfortable with JSON or open an issue with the new carrier's info and I will do my best to add it.
 
 ## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
+Install and run the app with the following commands:
 ```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+yarn install
+yarn run dev
 ```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
