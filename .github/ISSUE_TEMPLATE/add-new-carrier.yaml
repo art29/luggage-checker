@@ -1,5 +1,6 @@
 name: Request a new carrier
 description: Request a new carrier to be added to the list of supported carriers.
+title: '[New carrier request:] '
 assignees:
   - art29
 body:
