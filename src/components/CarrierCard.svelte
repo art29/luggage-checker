@@ -5,6 +5,7 @@
 	import type { IconDefinition } from '@fortawesome/free-brands-svg-icons';
 	import { faBriefcase, faCheck, faSuitcase, faTimes } from '@fortawesome/free-solid-svg-icons';
 	import Fa from 'svelte-fa';
+	import { getMeasurementsFromUnit } from '../utils';
 
 	let {measuringUnit, carrierRequirements}: {measuringUnit: 'CM' | 'IN', carrierRequirements: CarrierWithAllowedLuggage} = $props();
 
@@ -47,7 +48,7 @@
 					</h3>
 				</div>
 
-				<p class="text-sm text-gray-500 mb-2">{m.allowedSize()} {luggageType.maxTotalSize ? `${luggageType.maxTotalSize} ${measuringUnit}` : `${luggageType.maxHeight} x ${luggageType.maxWidth} x ${luggageType.maxDepth} ${measuringUnit}`}</p>
+				<p class="text-sm text-gray-500 mb-2">{m.allowedSize()} {luggageType.maxTotalSize ? `${getMeasurementsFromUnit(luggageType.maxTotalSize, measuringUnit)} ${measuringUnit}` : `${getMeasurementsFromUnit(luggageType.maxHeight, measuringUnit)} x ${getMeasurementsFromUnit(luggageType.maxWidth, measuringUnit)} x ${getMeasurementsFromUnit(luggageType.maxDepth, measuringUnit)} ${measuringUnit}`}</p>
 
 				<p class={`text-md text-gray-700 flex items-center gap-2 ${luggageType.isAllowed ? 'text-green-700' : 'text-red-500'}`}>
 					<Fa size="lg" icon={luggageType.isAllowed ? faCheck : faTimes}/>

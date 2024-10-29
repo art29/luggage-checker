@@ -14,3 +14,10 @@ export const getCountryFromCode = (code: string) => {
 			return 'Unknown';
 	}
 }
+
+export const getMeasurementsFromUnit = (cm: number, unit: 'CM' | 'IN') => {
+	if (unit === 'IN') {
+		return (cm / 2.54).toFixed(1);
+	}
+	return cm;
+}
